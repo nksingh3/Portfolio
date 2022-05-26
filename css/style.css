@@ -1194,8 +1194,10 @@ footer a{
     filter: var(--color-filter);
     background-size: 30px;
     background-position: center;
+    position: fixed;
+    right: 0;
     width: 40px;
-    height: 40px;
+    height: 40px;    
     cursor: pointer;
     display: block;
   }
@@ -1321,10 +1323,11 @@ footer a{
 
   .home-container .home-img{
     position: absolute;
+    right: 3em;
   }
 
   .home-container .home-img img{
-    width: 65%;
+    width: 75%;    
     transform: translate(80px, -180px);
   }
 
